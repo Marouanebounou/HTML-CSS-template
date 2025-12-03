@@ -1,0 +1,169 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    max-width: 100vw;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.navbar{
+    min-width: 100vw;
+    display: flex;
+    min-height: 60px;
+    align-items: center;
+    padding:10px;
+    justify-content: space-between;
+    background-color: #fffeff;
+}
+
+.navbar a img{
+    max-height: 70px;
+    margin: 0;
+}
+
+.links{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0 10px;
+}
+
+.links ul {
+    display: flex;
+    justify-content: space-around;
+
+}
+.links ul li{
+    text-decoration: none;
+    list-style: none;
+    margin: 0 8px;
+    font-size: large;
+    font-weight: 400;
+}
+
+.links button{
+    font-size: large;
+    padding: 13px 13px;
+    border: 0px solid transparent;
+    border-radius: 25px;
+    color: white;
+    font-weight: 500;
+    margin: 10px;
+    background-image: linear-gradient(to top, #6060dc, #3172b5)
+}
+
+.links input {
+    display: none;
+}
+
+.links label{
+    font-size: xx-large;
+    padding-bottom: 5px;
+}
+
+
+.hero{
+    max-height: 100vh;
+}
+
+.hero-img{
+    max-height: 40vh;
+    min-width: 100vw;
+    object-fit: cover;
+    object-position: center;
+
+}
+
+.hero .text h1{
+    color: #1a3f6f;
+}
+
+.text button{
+    font-size: large;
+    padding: 13px 40px;
+    border: 0px solid transparent;
+    border-radius: 25px;
+    color: white;
+    font-weight: 400;
+    margin: 10px;
+    background-image: linear-gradient(to top, #6060dc, #3172b5)
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.text h1{
+    font-size: 2.5rem;
+    margin-bottom: 0;
+}
+.text p{
+    max-width: 45vw;
+}
+
+.hero-wrapper {
+    position: relative; 
+    width: 100%;
+}
+
+.hero-wrapper::after {
+    content: '';
+    position: absolute;
+    bottom: 0;         
+    left: 0;
+    width: 100%;
+    height: 100px;
+    background: linear-gradient(to bottom, transparent, white);
+}
+
+.details{
+    padding-top: 150px;
+    min-height: 100vh;
+    min-width: 99vw;
+    max-width: 99vw;
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.details h2{
+    color: #1a3f6f;
+    font-size: 2rem;
+}
+
+.cards{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.cards div{
+    max-width: 350px;
+}
+
+.cards div a{
+    color: black;
+}
+
+.media-wall{
+    min-height: 100vh;
+    max-height: 100vh;
+}
+
+.media-wall img{
+    max-width: 100vw;
+    max-height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
