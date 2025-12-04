@@ -438,10 +438,12 @@ body {
     font-weight: 600;
     margin-bottom: 20px;
     font-size: 1rem;
+    
 }
 
 .footer-column ul {
     list-style: none;
+    padding-left: 0;
 }
 
 .footer-column ul li {
